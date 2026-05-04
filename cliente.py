@@ -1,16 +1,24 @@
 from excepciones import ClienteError
 
 class Cliente:
-    def __init__(self, nombre, email):
-        self.__nombre = nombre
-        self.__email = email
+
+    def init_(self, nombre, email):
+        self._nombre=nombre
+        self._email=email
         self.validar()
-
+        
     def validar(self):
-        if not self.__nombre:
-            raise ClienteError("Nombre vacío")
-        if "@" not in self.__email:
-            raise ClienteError("Email inválido")
-
+        if not self._nombre or self._nombre.strip() =="":
+            raise ClienteError("el nombre no puede estar vacio")
+        if"@" not in self._email:
+            raise ClienteError("El email no es valido")
+        
     def mostrar_info(self):
-        return f"{self.__nombre} - {self.__email}"
+        
+        return f"Cliente:{self._nombre} - {self._email}"  
+
+
+    
+
+
+    
