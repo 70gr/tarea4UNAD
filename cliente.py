@@ -2,7 +2,7 @@ from excepciones import ClienteError
 
 class Cliente:
 
-    def init_(self, nombre, email):
+    def __init__(self, nombre, email):
         self._nombre=nombre
         self._email=email
         self.validar()
