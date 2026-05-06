@@ -1,17 +1,13 @@
 from cliente import Cliente
-from servicio import ReservaSala
-from reserva import Reserva
-
 def main():
     try:
-        cliente = Cliente("Juan", "juan@mail.com")
-        servicio = ReservaSala("Sala VIP", 100)
-        reserva = Reserva(cliente, servicio)
-
-        print("Costo:", reserva.procesar(2))
-
+        # Caso correcto
+        c1 = Cliente("Juan", "juan@mail.com")
+        print(c1.mostrar_info())
+        # Caso incorrecto (nombre vacío)
+        c2 = Cliente("", "correo@mail.com")
     except Exception as e:
-        print("Error:", e)
+        print("Error detectado:", e)
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
