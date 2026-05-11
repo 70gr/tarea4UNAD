@@ -37,10 +37,10 @@ El sistema está diseñado bajo principios de programación orientada a objetos,
 ## Integrantes del equipo
 
 - Líder: Andres Felipe Chavez Ponton
-- Integrante 1: Jeremias Josue Cuadros 
+- Integrante 1: Jeremias Josue Cuadros Trillos
 - Integrante 2: Luis David Ortiz Ariza
 - Integrante 3: Jorge Mario Nuñez Berrios
-- Integrante 4:Jeremias Josue Cuadros Trillos
+- Integrante 4:JCarlos Javier Molina Arciria
 
 ---
 
