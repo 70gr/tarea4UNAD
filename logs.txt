@@ -1,1 +1,33 @@
 
+[2026-05-10 20:40:13] --- INICIO DE PRUEBAS DEL SISTEMA DE GESTIÓN ---
+[2026-05-10 20:40:13] INFO: Cliente creado exitosamente.
+[2026-05-10 20:40:13] ERROR CONTROLADO Prueba 2 (ClienteError): el nombre no puede estar vacio
+[2026-05-10 20:40:13] ERROR CONTROLADO Prueba 3 (ClienteError): El email no es valido
+[2026-05-10 20:40:13] --- FIN DE PRUEBAS DEL SISTEMA ---
+
+[2026-05-10 20:45:34] --- INICIO DE PRUEBAS DEL SISTEMA DE GESTIÓN ---
+[2026-05-10 20:45:34] INFO: Prueba 1 Exitosa - Cliente:Juan Perez - juan@mail.com
+[2026-05-10 20:45:34] ERROR CONTROLADO Prueba 2 (ClienteError): el nombre no puede estar vacio
+[2026-05-10 20:45:34] ERROR CONTROLADO Prueba 3 (ClienteError): El email no es valido
+[2026-05-10 20:45:34] INFO: Prueba 4 Exitosa - Reserva de sala por horas, Costo total: $150000
+[2026-05-10 20:45:34] ERROR CONTROLADO Prueba 5 (ServicioError): Horas inválidas
+[2026-05-10 20:45:34] ERROR CONTROLADO Prueba 6 (ServicioError): Las horas deben ser numéricas
+[2026-05-10 20:45:34] INFO: Prueba 7 Exitosa - Alquiler de equipos, Costo total: $160000
+[2026-05-10 20:45:34] ERROR CONTROLADO Prueba 8 (ServicioError): Días inválidos
+[2026-05-10 20:45:34] INFO: Prueba 9 Exitosa - Asesoría especializada calculada con descuento. Total: $360000.0
+[2026-05-10 20:45:34] ERROR CONTROLADO Prueba 10 (ServicioError): Descuento inválido
+[2026-05-10 20:45:34] --- FIN DE PRUEBAS DEL SISTEMA ---
+
+[2026-05-10 20:45:54] --- INICIO DE PRUEBAS DEL SISTEMA DE GESTIÓN ---
+[2026-05-10 20:45:54] INFO: Prueba 1 Exitosa - Cliente:Juan Perez - juan@mail.com
+[2026-05-10 20:45:54] ERROR CONTROLADO Prueba 2 (ClienteError): el nombre no puede estar vacio
+[2026-05-10 20:45:54] ERROR CONTROLADO Prueba 3 (ClienteError): El email no es valido
+[2026-05-10 20:45:54] INFO: Prueba 4 Exitosa - Reserva de sala por horas, Costo total: $150000
+[2026-05-10 20:45:54] ERROR CONTROLADO Prueba 5 (ServicioError): Horas inválidas
+[2026-05-10 20:45:54] ERROR CONTROLADO Prueba 6 (ServicioError): Las horas deben ser numéricas
+[2026-05-10 20:45:54] INFO: Prueba 7 Exitosa - Alquiler de equipos, Costo total: $160000
+[2026-05-10 20:45:54] ERROR CONTROLADO Prueba 8 (ServicioError): Días inválidos
+[2026-05-10 20:45:54] INFO: Prueba 9 Exitosa - Asesoría especializada calculada con descuento. Total: $360000.0
+[2026-05-10 20:45:54] ERROR CONTROLADO Prueba 10 (ServicioError): Descuento inválido
+[2026-05-10 20:45:54] --- FIN DE PRUEBAS DEL SISTEMA ---
+
