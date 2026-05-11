@@ -40,7 +40,7 @@ El sistema está diseñado bajo principios de programación orientada a objetos,
 - Integrante 1: Jeremias Josue Cuadros Trillos
 - Integrante 2: Luis David Ortiz Ariza
 - Integrante 3: Jorge Mario Nuñez Berrios
-- Integrante 4:JCarlos Javier Molina Arciria
+- Integrante 4: Carlos Javier Molina Arciria
 
 ---
 
